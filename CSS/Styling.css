@@ -1,0 +1,9 @@
+.background{
+    background: linear-gradient(270deg, rgb(0,0,0) 0%,rgb(180,220,254) 100%);
+}
+body{
+    color: white;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
