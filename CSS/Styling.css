@@ -10,16 +10,11 @@ body{
     padding: 0.5em;
     margin: 1em 1em 1em 1em;
 }
-h1{
-    font-size: 3em;
-}
 p{
     font-size: 1em;
+    padding-left: 0.5em;
+    padding-top: 0.1em;
 }
 .shadow{
     box-shadow: 0 0 0.5em 0.1em white;
-}
-.image{
-    padding: none;
-    width: 100%;
 }
