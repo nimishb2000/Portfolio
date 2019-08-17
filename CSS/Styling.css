@@ -3,9 +3,6 @@
     animation: anim 3s;
     background-size: 200% 200%;
 }
-html{
-    overflow-x: hidden; 
-}
 body{
     color: oldlace;
     font-family: cursive;
@@ -56,9 +53,9 @@ h3{
     color: darkslategray;
     border-radius: 0.5em;
 }
-.a1{
-    animation: anim2 5s;
+a.link, a.link:active, a.link:hover, a.link:visited{
+    color: lightgray;
 }
-.a2{
-    animation: anim3 5s;
+.icon:hover{
+    animation: shake 0.5s 1;
 }
