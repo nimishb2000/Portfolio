@@ -8,25 +8,6 @@
 .bg{
     background: linear-gradient(180deg, #000,#00ffbd);
 }
-@media screen and (min-width: 601px){
-    .bg{
-        background: linear-gradient(90deg, #000, #00ffbd);
-        background-size: 200% 200%;
-        animation: anim 3s;
-    }
-    .icon:hover{
-        animation: shake 0.5s 1;
-    }
-    div.col-left{
-        width: 32.5%;
-        position: fixed;
-    }
-    div.col-right{
-        margin-left: 2%;
-        width: 65.5%;
-        position: relative;
-    }
-}
 body{
     color: oldlace;
     font-family: cursive;
@@ -69,7 +50,7 @@ h2{
     color: lightgray;
 }
 h3{
-    font-size: 1.25em;
+    font-size: 1.35em;
 }
 .x2{
     background: ghostwhite;
@@ -78,7 +59,5 @@ h3{
 }
 a.link, a.link:active, a.link:hover, a.link:visited{
     color: lightgray;
-}
-@media screen and (min-width: 601px){
-    
+    text-decoration: none;
 }
