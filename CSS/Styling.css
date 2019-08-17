@@ -1,7 +1,25 @@
 .background{
-    background: linear-gradient(270deg, rgb(0,0,0) 0%,rgb(180,220,254) 100%);
+    background: linear-gradient(90deg, #000000,#00ffbd);
+    animation: anim 5s linear;
+    background-size: 200% 200%;
 }
 body{
-    color: white;
+    color: oldlace;
+    font-family: cursive;
     text-align: justify;
+    padding: 0.5em;
+    margin: 1em 1em 1em 1em;
+}
+h1{
+    font-size: 3em;
+}
+p{
+    font-size: 1em;
+}
+.shadow{
+    box-shadow: 0 0 0.5em 0.1em white;
+}
+.image{
+    padding: none;
+    width: 100%;
 }
