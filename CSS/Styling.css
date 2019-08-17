@@ -13,7 +13,6 @@ body{
     margin: 0;
     z-index: 0;
     font-size: 1em;
-    line-height: 1.5;
 }
 .shadow{
     box-shadow: 0 0 0.25em 0.25em ghostwhite;
@@ -24,7 +23,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     z-index: 1;
-    margin-top: 16px !important;
+    margin-top: 1em !important;
 }
 .grid:after, .grid:before{
     content: "";
@@ -35,15 +34,10 @@ body{
     padding: 0.01em 1em;
 }
 .page, .page > .col-left, .page > .col-right{
-    padding: 0 8px;
+    padding: 0 0.5em;
 }
 .x1{
     position: relative;
-}
-.x2{
-    position: absolute;
-    left: 0.5em;
-    bottom: 0;
 }
 h2{
     font-size: 1.75em;
@@ -53,4 +47,18 @@ h2{
 }
 .info{
     color: lightgray;
+}
+h3{
+    font-size: 1.5em;
+}
+.x2{
+    background: ghostwhite;
+    color: darkslategray;
+    border-radius: 0.5em;
+}
+.a1{
+    animation: anim2 5s;
+}
+.a2{
+    animation: anim3 5s;
 }

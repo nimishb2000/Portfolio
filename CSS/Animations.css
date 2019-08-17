@@ -2,3 +2,11 @@
     0% {background-position: -100% 0%;}
     100% {background-position: 0% 0%;}
 }
+@keyframes anim2{
+    from {margin-top: -100%;}
+    to {margin-top: 1em;}
+}
+@keyframes anim3{
+    from {margin-top: 100%;}
+    to {margin-top: 1em;}
+}
