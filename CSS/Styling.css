@@ -1,7 +1,15 @@
-.background{
-    background: linear-gradient(90deg, #000000,#00ffbd);
-    animation: anim 3s;
-    background-size: 200% 200%;
+.bg{
+    background: linear-gradient(180deg, #000,#00ffbd);
+}
+@media screen and (min-width: 601px){
+    .bg{
+        background: linear-gradient(90deg, #000, #00ffbd);
+        background-size: 200% 200%;
+        animation: anim 3s;
+    }
+    .icon:hover{
+        animation: shake 0.5s 1;
+    }
 }
 body{
     color: oldlace;
@@ -46,7 +54,7 @@ h2{
     color: lightgray;
 }
 h3{
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 .x2{
     background: ghostwhite;
@@ -56,6 +64,6 @@ h3{
 a.link, a.link:active, a.link:hover, a.link:visited{
     color: lightgray;
 }
-.icon:hover{
-    animation: shake 0.5s 1;
+@media screen and (min-width: 601px){
+    
 }
