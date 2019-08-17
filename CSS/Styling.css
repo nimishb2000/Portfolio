@@ -1,20 +1,56 @@
 .background{
     background: linear-gradient(90deg, #000000,#00ffbd);
-    animation: anim 5s linear;
+    animation: anim 3s;
     background-size: 200% 200%;
+}
+html{
+    overflow-x: hidden; 
 }
 body{
     color: oldlace;
     font-family: cursive;
     text-align: justify;
-    padding: 0.5em;
-    margin: 1em 1em 1em 1em;
-}
-p{
+    margin: 0;
+    z-index: 0;
     font-size: 1em;
-    padding-left: 0.5em;
-    padding-top: 0.1em;
+    line-height: 1.5;
 }
 .shadow{
-    box-shadow: 0 0 0.5em 0.1em white;
+    box-shadow: 0 0 0.25em 0.25em ghostwhite;
+    background: darkslategray;
+    margin-top: 1em;
+}
+.page{
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    margin-top: 16px !important;
+}
+.grid:after, .grid:before{
+    content: "";
+    display: table;
+    clear: both;
+}
+.grid{
+    padding: 0.01em 1em;
+}
+.page, .page > .col-left, .page > .col-right{
+    padding: 0 8px;
+}
+.x1{
+    position: relative;
+}
+.x2{
+    position: absolute;
+    left: 0.5em;
+    bottom: 0;
+}
+h2{
+    font-size: 1.75em;
+}
+.bottom{
+    margin-bottom: 1em !important
+}
+.info{
+    color: lightgray;
 }
