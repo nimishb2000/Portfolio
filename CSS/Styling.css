@@ -1,3 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+[class*="col-"]{
+    width: 100%;
+    float: left;
+}
 .bg{
     background: linear-gradient(180deg, #000,#00ffbd);
 }
@@ -9,6 +16,15 @@
     }
     .icon:hover{
         animation: shake 0.5s 1;
+    }
+    div.col-left{
+        position: fixed;
+        width: 32.5%;
+    }
+    div.col-right{
+        margin-left: 34.5%;
+        width: 65.5%;
+        position: relative;
     }
 }
 body{
