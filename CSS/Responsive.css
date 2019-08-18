@@ -13,11 +13,7 @@
     .col-right{
         width: 65.5%;
         margin-left: 2%;
-    }
-    .holder{
-        display: inline-block;
-        position: relative;
-    }
+    }   
     .text1{
         width: 13em;
     }
@@ -36,33 +32,11 @@
     .text6{
         width: 15em;
     }
-    .holder .text{
-        visibility: hidden;
-        color: #000000;
-        background: linear-gradient(90deg, #202020, #505050);
-        text-align: center;
-        border-radius: 0.25em;
-        padding: 1em 0;
-        position: absolute;
-        z-index: 1;
-        opacity: 0;
-        top: -5%;
-        left: 120%;
-        margin-top: -1.5em;
-        transition: opacity 2s;
-    }
-    .holder .text::after{
-        content: "";
-        position: absolute;
-        top: 50%;
-        right: 100%;
-        margin-top: -5px;
-        border-width: 5px;
-        border-style: solid;
-        border-color: transparent #202020 transparent transparent;
-    }
     .holder:hover .text{
         visibility: visible;
         opacity: 1;
+    }
+    [class*="col-"], .ftr{
+        animation: view 5s;
     }
 }
